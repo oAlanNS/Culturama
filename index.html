@@ -12,7 +12,7 @@
     </header>
     <section>
         <form action="" method="get">
-            <!--<fieldset>
+            <fieldset>
                 <legend>Dados pessoais</legend>
                 <label for="user">Nome:</label>
                 <input id="user" type="text" name="userName" required>
@@ -39,8 +39,8 @@
                 <input type="file" accept = "image/*" name="userImage">
                 <br>
 
-            </fieldset> -->
-            <!--<fieldset>
+            </fieldset>
+            <fieldset>
                 <legend>Perfil:</legend>
                 <p>Genêro: </p>
                 <input type="radio" name="userGender" value="feminino" id="feminino">
@@ -97,35 +97,49 @@
                 <label for="userCity">Cidade:</label>
                 <input type="text" name="userCity" required>
                 <br>
-            </fieldset>-->
+            </fieldset>
             <fieldset>
                 <legend>Hábitos:</legend>
                 <p>Redes Sociais:</p>
                 <input type="checkbox" name="social" value="facebook" id="facebook">
                 <label for="facebook">Facebook</label>
                 <br>
+
                 <input type="checkbox" name="social" value="instagram" id="instagram">
                 <label for="instagram">Instagram</label>
                 <br>
+
                 <input type="checkbox" name="social" value="tiktok" id="tiktok">
                 <label for="tiktok">Tiktok</label>
                 <br>
+
                 <input type="checkbox" name="social" value="x" id="x">
                 <label for="x">X</label>
                 <br>
+
                 <input type="checkbox" name="social" value="whatsapp" id="whatsapp">
                 <label for="whatsapp">Whatsapp</label>
                 <br>
                 <input type="checkbox" name="social" value="linkedin" id="linkedin">
                 <label for="linkedin">LinkedIn</label>
                 <br>
+
                 <input type="checkbox" name="social" value="youtube" id="youtube">
                 <label for="youtube">Youtube</label>
                 <br>
+
                 <input type="checkbox" name="social" value="outro" id="outro">
                 <label for="outro">Outro</label>
                 <br>
 
+                <label for="musicalstyle">Estilo Musical:</label>
+                <input id ="musicalstyle" name ="musicalstyle" type="text" list="styleType">
+                <datalist id="styleType">
+                    <option value="Rock">
+                    <option value="Pop">
+                    <option value="Sertanejo">
+                    <option value="Hardstyle">
+                </datalist>
             </fieldset>
             <button type="submit">Enviar</button>
         </form>
