@@ -10,3 +10,54 @@ h1{
     font-style: normal;
 } */
 
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F9F9F9;
+}
+main{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 100px;
+}
+
+h1{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+form{
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+fieldset{
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 5px;
+}
